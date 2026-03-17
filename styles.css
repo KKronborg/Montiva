@@ -169,9 +169,14 @@ textarea {
 
 .button-ghost {
   background: transparent;
-  color: var(--ink);
-  border: 1px solid var(--line-strong);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.72);
   box-shadow: none;
+}
+
+.button-ghost:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
 }
 
 .button-light {
